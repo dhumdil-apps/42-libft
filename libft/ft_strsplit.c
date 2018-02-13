@@ -36,7 +36,7 @@ static void	get_word(char const *s, char c, size_t *j, size_t *k)
 	}
 }
 
-static void	fill_string(char *str, char *s, size_t j, size_t n)
+static void	fill_string(char *str, char const *s, size_t j, size_t n)
 {
 	size_t	i;
 
