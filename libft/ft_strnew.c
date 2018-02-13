@@ -9,5 +9,5 @@ char	*ft_strnew(size_t size)
 	{
 		ft_memset(s, '\0', size + 1);
 	}
-	return ((char *)s);
+	return (s);
 }

@@ -9,16 +9,18 @@ char	*ft_strncpy(char *dest, const char *src, size_t n)
 	{
 		i = 0;
 		j = 0;
-		while (n - i > 0)
+		while ((n - i) > 0)
 		{
 			if (src[j] != '\0')
 			{
-				dest[i++] = src[j++];
+				dest[i] = src[j];
+				j++;
 			}
 			else
 			{
-				dest[i++] = '\0';
+				dest[i] = '\0';
 			}
+			i++;
 		}
 	}
 	return (dest);
