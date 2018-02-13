@@ -2,7 +2,7 @@
 
 int	ft_is_whitespace(char c)
 {
-	if (ft_is_space(c))
+	if (c == ' ')
 	{
 		return (1);
 	}

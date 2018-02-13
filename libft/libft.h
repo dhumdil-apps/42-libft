@@ -86,8 +86,9 @@ t_list	*ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem));
 ** bonus 2
 */
 int		ft_is_lower(char c);
-int		ft_is_space(char c);
 int		ft_is_upper(char c);
 int		ft_is_whitespace(char c);
+char	ft_pop_stack(char *s);
+void	ft_push_stack(char *s, char c);
 
 #endif
